@@ -3,7 +3,7 @@
         <div class="Footer__content">
             <SparcsLogo class="Footer__logo" />
             <div class="Footer__location">
-                <span class="Footer__location-text"> {{ $t('location-1') }} </span>
+                <span class="Footer__location-text"> {{ $t('location-1') }}&nbsp </span> <!-- add space -->
                 <span class="Footer__location-text"> {{ $t('location-2') }} </span>
             </div>
 
